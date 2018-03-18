@@ -4,7 +4,7 @@
  * Pharaoh Tools Constants
  */
 
-define('PHARAOH_APP', "ptsource") ;
+define('PHARAOH_APP', "ptartefacts") ;
 define('PHARAOH_APP_FRIENDLY', str_replace("pt", "", PHARAOH_APP)) ;
 
 if (in_array(PHP_OS, array("Windows", "WINNT"))) {
