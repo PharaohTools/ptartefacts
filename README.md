@@ -1,13 +1,12 @@
-![alt text](http://www.pharaohtools.com/images/logo-pharaoh.png "Pharaoh Tools Source Server")
+![alt text](http://www.pharaohtools.com/images/logo-pharaoh.png "Pharaoh Tools Artefacts Server")
 
-# PTSource, Pharaoh Tools
+# PTArtefacts, Pharaoh Tools
 
 ## About:
 
-Source Control Management in PHP.
+Artefact Repository Management in PHP.
 
-A Web Interface for your your automated source processes, flexible to be distributed from Development through
-Enterprise Production.
+A Web Interface for your Artefact Repository
 
 Smooth Integration with all other Pharaoh Tools; seamlessly and simply being able to hooking into your Development
 Environments, Configuration, Deployments, Tests, Tracked Processes and Managed Orchestration.
@@ -15,16 +14,16 @@ Environments, Configuration, Deployments, Tests, Tracked Processes and Managed O
     
 ## Installation
 
-First you'll need to install Git and PHP5. If you don't have either, google them - they're easy to install. To install
-ptsource cli on your On your Mac, Linux or  Unix Machine silently do the following:
+First you'll need to install Git and PHP. If you don't have either, google them - they're easy to install. To install
+ptartefacts cli on your On your Mac, Linux or  Unix Machine silently do the following:
 
-git clone https://github.com/PharaohTools/ptsource.git && sudo php ptsource/install-silent
+git clone https://github.com/PharaohTools/ptartefacts.git && sudo php ptartefacts/install-silent
 
 or on Windows, open a terminal with the "Run as Administrator" option...
 
-git clone https://github.com/PharaohTools/ptsource.git && php ptsource\install-silent
+git clone https://github.com/PharaohTools/ptartefacts.git && php ptartefacts\install-silent
 
-... that's it, now the ptsource command should be available at the command line for you.
+... that's it, now the ptartefacts command should be available at the command line for you.
 
 
 ## Usage:
@@ -33,13 +32,13 @@ So, there are a few simple commands...
 
 First, you can just use
 
-ptsource
+ptartefacts
 
 ...This will give you a list of the available modules...
 
 Then you can use
 
-ptsource *ModuleName* help
+ptartefacts *ModuleName* help
 
 ...This will display the help for that module, and tell you a list of available alias for the module command, and the
 available actions too.
